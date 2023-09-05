@@ -1,7 +1,9 @@
 # 최종수정일: 23.09.05 (화)
 # 간단소개 : 계좌랜덤 생성 코드
+
+
 import random
-import string
+import string .
 
 # 은행 정보와 계좌 길이
 bank_info = {
