@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="은행명:"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editText_bankName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex)영남"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="계좌번호:"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editText_accountNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex)1238120941"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예금주명:"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editText_accountHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex)성창민"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진촬영"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        app:icon="@android:drawable/ic_menu_camera"
+        app:iconPadding="8dp"
+        app:iconSize="100dp" />
+    <Button
+        android:id="@+id/button_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="송금하기"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
