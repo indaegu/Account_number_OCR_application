@@ -3,7 +3,7 @@
 
 
 import random
-import string .
+import string
 
 # 은행 정보와 계좌 길이
 bank_info = {
